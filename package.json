@@ -1,0 +1,17 @@
+{
+  "name": "rollup-typescript-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "rollup": "npx rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.21.1",
+    "tslib": "^2.7.0"
+  }
+}
