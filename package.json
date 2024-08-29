@@ -4,7 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "rollup": "npx rollup -c"
+    "rollup": "rm rollup.config.js && npx tsc && npx rollup --config rollup.config.js",
+    "rollup-ts": "npx rollup --config --configPlugin typescript",
+    "tsc": "npx tsc"
   },
   "author": "",
   "license": "ISC",
